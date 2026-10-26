@@ -35,4 +35,8 @@
 Thanaphon · รหัสนักศึกษา 664245013  
 [GitHub Profile](https://github.com/664245013)
 
+<<<<<<< HEAD
 เผยแพร่เว็บไซต์ด้วย GitHub Pages จาก branch main และโฟลเดอร์รากของ repository
+=======
+เผยแพร่เว็บไซต์ด้วย GitHub Pages จาก branch main และโฟลเดอร์รากของ repository
+>>>>>>> 3b9d0bcbd38140e50bd9cfeed185ce1737a7975e
