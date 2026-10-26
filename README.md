@@ -6,9 +6,8 @@ Portfolio ระบบแนะนำโรงแรมและงานที�
 ## Hotel Recommendation System
 เว็บแอป Streamlit สำหรับแนะนำโรงแรมด้วย Neo4j โดยใช้ความชอบของผู้ใช้และความสัมพันธ์กับเพื่อน
 
-[ดูซอร์สโค้ดบน GitHub](https://github.com/664245013/013..RE)
-
-URL สำหรับเปิดแอป Streamlit โดยตรงจะเพิ่มเมื่อได้รับลิงก์ที่ใช้งานจริง
+- [เปิดเว็บ Streamlit](https://eclthdo5ujipj8on9fo2de.streamlit.app/)
+- [ดูซอร์สโค้ดบน GitHub](https://github.com/664245013/013..RE)
 
 ## งาน Colab
 
