@@ -23,4 +23,8 @@ Portfolio นี้รวบรวมโปรเจกต์ระบบแน�
 Thanaphon · รหัสนักศึกษา 664245013  
 [GitHub Profile](https://github.com/664245013)
 
+<<<<<<< HEAD
 เว็บไซต์เผยแพร่ด้วย GitHub Pages จาก branch main และโฟลเดอร์รากของ repository
+=======
+เว็บไซต์เผยแพร่ด้วย GitHub Pages จาก branch main และโฟลเดอร์รากของ repository
+>>>>>>> 0ca8ffe0b5aefc3b5f464c124df675d97878b158
