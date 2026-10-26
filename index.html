@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0b1112">
-<meta name="description" content="Portfolio ของ Thanaphon รวมระบบแนะนำโรงแรมที่พัฒนาด้วย Streamlit และ Neo4j พร้อมงาน Google Colab และเอกสารประกอบ">
+<meta name="description" content="Portfolio ของ Thanaphon รวมระบบแนะนำโรงแรม หนังสือ และชมรม พร้อมงาน Google Colab และเอกสาร PDF">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Thanaphon | Hotel Recommendation Portfolio">
-<meta property="og:description" content="ระบบแนะนำโรงแรมด้วย Streamlit และ Neo4j พร้อมงานประกอบการเรียน">
+<meta property="og:description" content="รวมระบบแนะนำโรงแรม หนังสือ และชมรมด้วย Graph Database พร้อมงาน Google Colab และเอกสาร PDF">
 <meta property="og:url" content="https://664245013.github.io/664245013Thanaphon/">
 <title>Thanaphon — Hotel Recommendation Portfolio</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23172322'/%3E%3Cpath d='M18 17h28v7H35v23h-7V24H18z' fill='%23d5b17d'/%3E%3C/svg%3E">
@@ -120,7 +120,7 @@ h1 span{color:var(--gold-light)}
 .graph-card svg{display:block;width:100%;height:142px;margin-top:5px}
 .graph-card-foot{display:flex;justify-content:space-between;color:var(--soft);font-size:9px}
 .resources{padding-top:32px}
-.resource-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.resource-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
 .resource-card{min-height:190px;display:flex;flex-direction:column;padding:18px;border:1px solid var(--line);border-radius:16px;background:rgba(17,26,27,.74);text-decoration:none;transition:transform .18s,border-color .18s,background .18s}
 .resource-card:hover{transform:translateY(-3px);border-color:rgba(213,177,125,.43);background:var(--surface-2)}
 .resource-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
@@ -212,7 +212,7 @@ footer{padding:20px 0 28px;border-top:1px solid var(--line);color:var(--soft);fo
       <div>
         <div class="eyebrow">Portfolio · 2026</div>
         <h1 id="hero-title">ค้นหาโรงแรมที่ใช่<br><span>ด้วยพลังของข้อมูล</span></h1>
-        <p class="hero-copy">แฟ้มผลงานของ Thanaphon รวมโปรเจกต์ระบบแนะนำโรงแรมที่พัฒนาด้วย Streamlit และ Neo4j พร้อมสมุดงาน Google Colab และเอกสารประกอบ</p>
+        <p class="hero-copy">แฟ้มผลงานของ Thanaphon รวมงานระบบแนะนำโรงแรม หนังสือ และชมรม พร้อมสมุดงาน Google Colab และเอกสารประกอบ</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#project">ชมโปรเจกต์หลัก <span class="arrow" aria-hidden="true">↘</span></a>
           <a class="button button-quiet" href="https://github.com/664245013" target="_blank" rel="noopener noreferrer">GitHub Profile <span class="arrow" aria-hidden="true">↗</span></a>
@@ -241,9 +241,9 @@ footer{padding:20px 0 28px;border-top:1px solid var(--line);color:var(--soft);fo
       </div>
     </div>
     <div class="stats" aria-label="สรุปผลงาน">
-      <div class="stat"><strong>01</strong><span>โปรเจกต์หลัก</span></div>
+      <div class="stat"><strong>03</strong><span>งานระบบแนะนำ</span></div>
       <div class="stat"><strong>03</strong><span>สมุดงาน Google Colab</span></div>
-      <div class="stat"><strong>01</strong><span>เอกสาร PDF</span></div>
+      <div class="stat"><strong>03</strong><span>เอกสาร PDF</span></div>
     </div>
   </section>
 
@@ -256,7 +256,7 @@ footer{padding:20px 0 28px;border-top:1px solid var(--line);color:var(--soft);fo
       <div>
         <div class="project-meta"><span class="live-dot" aria-hidden="true"></span>เว็บแอปพร้อมใช้งาน <span>·</span> Streamlit</div>
         <h3>Hotel Recommendation System</h3>
-        <p class="description">เว็บแอปแนะนำโรงแรมที่ใช้ความชอบของผู้ใช้และความสัมพันธ์กับเพื่อน พร้อม Neo4j Graph Database สำหรับจัดเก็บและเชื่อมโยงข้อมูล</p>
+        <p class="description">ระบบ Collaborative Filtering ที่แนะนำโรงแรมจากผู้ใช้ซึ่งมีความชอบคล้ายกัน โดยเก็บความสัมพันธ์ใน Neo4j Graph Database และอธิบายได้ว่าใครเป็นผู้แนะนำ</p>
         <div class="pills" aria-label="เทคโนโลยีที่ใช้"><span class="pill">Streamlit</span><span class="pill">Neo4j</span><span class="pill">Cypher</span><span class="pill">Graph Database</span></div>
         <div class="project-actions">
           <a class="button button-primary" href="https://eclthdo5ujipj8on9fo2de.streamlit.app/" target="_blank" rel="noopener noreferrer">เปิดเว็บแอป <span class="arrow" aria-hidden="true">↗</span></a>
@@ -281,24 +281,32 @@ footer{padding:20px 0 28px;border-top:1px solid var(--line);color:var(--soft);fo
   <section class="section shell resources" id="resources" aria-labelledby="resources-heading">
     <div class="section-heading">
       <div><div class="section-kicker">Learning materials</div><h2 id="resources-heading">งานและเอกสารประกอบ</h2></div>
-      <p>รวมสมุดงานจาก Google Colab และเอกสาร PDF ที่ส่งมา</p>
+      <p>รวมสมุดงานโรงแรมและเอกสารระบบแนะนำหนังสือ ชมรม และโรงแรม</p>
     </div>
     <div class="resource-grid">
       <a class="resource-card" href="https://colab.research.google.com/drive/1k4c6Iaxotk_5U_4JSEa8sH-gpGVlg8WF?usp=sharing" target="_blank" rel="noopener noreferrer">
         <span class="resource-top"><span class="resource-icon" aria-hidden="true">01</span><span class="resource-kind">Google Colab</span></span>
-        <h3>สมุดงาน Colab 01</h3><p>งานประกอบการเรียนในรูปแบบ Jupyter Notebook</p><span class="resource-link">เปิดสมุดงาน <span aria-hidden="true">↗</span></span>
+        <h3>Hotel Recommender System ด้วย Graph</h3><p>ใช้ NetworkX สร้างกราฟ Person และ Hotel แล้วแนะนำจากความชอบที่มีร่วมกัน</p><span class="resource-link">เปิดสมุดงาน <span aria-hidden="true">↗</span></span>
       </a>
       <a class="resource-card" href="https://colab.research.google.com/drive/1mCthb9xYtimhEANP4ljIepC2G9y9mp1s?usp=sharing" target="_blank" rel="noopener noreferrer">
         <span class="resource-top"><span class="resource-icon" aria-hidden="true">02</span><span class="resource-kind">Google Colab</span></span>
-        <h3>สมุดงาน Colab 02</h3><p>งานประกอบการเรียนในรูปแบบ Jupyter Notebook</p><span class="resource-link">เปิดสมุดงาน <span aria-hidden="true">↗</span></span>
+        <h3>Hotel Recommender System with Neo4j</h3><p>สมุดงานระบบแนะนำโรงแรมที่ระบุ Neo4j ไว้ในชื่อ Notebook</p><span class="resource-link">เปิดสมุดงาน <span aria-hidden="true">↗</span></span>
       </a>
       <a class="resource-card" href="https://colab.research.google.com/drive/15fG0GvEQjsSEHiHANEEJb5eukuQvwoPg#scrollTo=4beb8b13" target="_blank" rel="noopener noreferrer">
         <span class="resource-top"><span class="resource-icon" aria-hidden="true">03</span><span class="resource-kind">Google Colab</span></span>
-        <h3>สมุดงาน Colab 03</h3><p>งานประกอบการเรียนในรูปแบบ Jupyter Notebook</p><span class="resource-link">เปิดสมุดงาน <span aria-hidden="true">↗</span></span>
+        <h3>Google Colab Notebook 03</h3><p>สมุดงาน Google Colab รายการที่ 3</p><span class="resource-link">เปิดสมุดงาน <span aria-hidden="true">↗</span></span>
       </a>
       <a class="resource-card" href="./แบบฝึกหัด.pdf" target="_blank" rel="noopener noreferrer">
-        <span class="resource-top"><span class="resource-icon" aria-hidden="true">PDF</span><span class="resource-kind">Document</span></span>
-        <h3>แบบฝึกหัด</h3><p>เอกสารประกอบงานในรูปแบบ PDF</p><span class="resource-link">เปิดเอกสาร <span aria-hidden="true">↗</span></span>
+        <span class="resource-top"><span class="resource-icon" aria-hidden="true">PDF</span><span class="resource-kind">PDF · 6 หน้า</span></span>
+        <h3>School Book Recommendation System</h3><p>ใช้ความสัมพันธ์นักเรียน เพื่อน การยืมหนังสือ และหมวดหมู่ เพื่อหาเล่มที่เหมาะกับการแนะนำ</p><span class="resource-link">เปิดเอกสาร <span aria-hidden="true">↗</span></span>
+      </a>
+      <a class="resource-card" href="./664245013_club.pdf" target="_blank" rel="noopener noreferrer">
+        <span class="resource-top"><span class="resource-icon" aria-hidden="true">PDF</span><span class="resource-kind">PDF · 7 หน้า</span></span>
+        <h3>Club Recommendation System</h3><p>ใช้ FRIEND และ MEMBER_OF นับจำนวนเพื่อนในแต่ละชมรม แล้วแนะนำชมรมอันดับ 1</p><span class="resource-link">เปิดเอกสาร <span aria-hidden="true">↗</span></span>
+      </a>
+      <a class="resource-card" href="./Hotel_Recommendation_Slides.pdf" target="_blank" rel="noopener noreferrer">
+        <span class="resource-top"><span class="resource-icon" aria-hidden="true">PDF</span><span class="resource-kind">PDF · 6 slides</span></span>
+        <h3>Hotel Recommendation System Slides</h3><p>สไลด์อธิบาย Collaborative Filtering กราฟความชอบ และส่วนต่าง ๆ ของเว็บแอป</p><span class="resource-link">เปิดสไลด์ <span aria-hidden="true">↗</span></span>
       </a>
     </div>
   </section>
@@ -318,3 +326,4 @@ footer{padding:20px 0 28px;border-top:1px solid var(--line);color:var(--soft);fo
 =======
 </html>
 >>>>>>> 0ca8ffe0b5aefc3b5f464c124df675d97878b158
+
