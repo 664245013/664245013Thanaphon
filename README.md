@@ -1,30 +1,38 @@
-# Thanaphon — Hotel Recommendation Portfolio
+# Thanaphon — Student Portfolio
 
-**ลิงก์เว็บไซต์สำหรับส่งงาน:** [เปิด Portfolio](https://664245013.github.io/664245013Thanaphon/)
+**ลิงก์สำหรับส่งอาจารย์:** [เปิดหน้า Portfolio](https://664245013.github.io/664245013Thanaphon/)
 
-Portfolio นี้รวบรวมโปรเจกต์ระบบแนะนำโรงแรม งาน Google Colab และเอกสารประกอบการเรียน สามารถเปิดดูได้จากหน้าเว็บโดยตรง
+รวมโปรเจกต์ระบบแนะนำด้วย Graph Database งาน Google Colab และเอกสารประกอบไว้ในหน้าเว็บเดียว
 
-## โปรเจกต์หลัก: Hotel Recommendation System
+## Hotel Recommendation System
 
-เว็บแอป Streamlit สำหรับแนะนำโรงแรมจากความชอบของผู้ใช้และความสัมพันธ์กับเพื่อน โดยใช้ Neo4j Graph Database
+ระบบ Collaborative Filtering ที่แนะนำโรงแรมจากผู้ใช้ซึ่งมีความชอบคล้ายกัน โดยใช้ Neo4j Graph Database, Cypher, Python และ Streamlit
 
 - [เปิดเว็บแอป](https://eclthdo5ujipj8on9fo2de.streamlit.app/)
 - [ดูซอร์สโค้ด](https://github.com/664245013/013..RE)
+- [Hotel Recommendation System Slides](./Hotel_Recommendation_Slides.pdf)
+- [Hotel Recommender System ด้วย Graph (Colab)](https://colab.research.google.com/drive/1k4c6Iaxotk_5U_4JSEa8sH-gpGVlg8WF?usp=sharing)
+- [Hotel Recommender System with Neo4j (Colab)](https://colab.research.google.com/drive/1mCthb9xYtimhEANP4ljIepC2G9y9mp1s?usp=sharing)
 
-## งานและเอกสารประกอบ
+## Club Recommendation System
 
-- [สมุดงาน Colab 01](https://colab.research.google.com/drive/1k4c6Iaxotk_5U_4JSEa8sH-gpGVlg8WF?usp=sharing)
-- [สมุดงาน Colab 02](https://colab.research.google.com/drive/1mCthb9xYtimhEANP4ljIepC2G9y9mp1s?usp=sharing)
-- [สมุดงาน Colab 03](https://colab.research.google.com/drive/15fG0GvEQjsSEHiHANEEJb5eukuQvwoPg#scrollTo=4beb8b13)
-- [แบบฝึกหัด PDF](./แบบฝึกหัด.pdf)
+ใช้ความสัมพันธ์ FRIEND และ MEMBER_OF นับจำนวนเพื่อนในแต่ละชมรม แล้วแนะนำชมรมอันดับ 1
+
+- [เอกสารงานระบบแนะนำชมรม](./664245013_club.pdf)
+
+## School Book Recommendation System
+
+ใช้ความสัมพันธ์นักเรียน เพื่อน การยืมหนังสือ และหมวดหมู่ เพื่อหาเล่มที่เหมาะกับการแนะนำ
+
+- [เอกสาร School Book Recommendation System](./แบบฝึกหัด.pdf)
+
+## งาน Colab เพิ่มเติม
+
+- [Google Colab Notebook 03](https://colab.research.google.com/drive/15fG0GvEQjsSEHiHANEEJb5eukuQvwoPg#scrollTo=4beb8b13)
 
 ## ผู้จัดทำ
 
 Thanaphon · รหัสนักศึกษา 664245013  
 [GitHub Profile](https://github.com/664245013)
 
-<<<<<<< HEAD
-เว็บไซต์เผยแพร่ด้วย GitHub Pages จาก branch main และโฟลเดอร์รากของ repository
-=======
-เว็บไซต์เผยแพร่ด้วย GitHub Pages จาก branch main และโฟลเดอร์รากของ repository
->>>>>>> 0ca8ffe0b5aefc3b5f464c124df675d97878b158
+เผยแพร่เว็บไซต์ด้วย GitHub Pages จาก branch main และโฟลเดอร์รากของ repository
