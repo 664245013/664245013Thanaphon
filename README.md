@@ -1,7 +1,14 @@
 # 664245013Thanaphon
-Portfolio ระบบโรงแรมและงานที่ได้รับมอบหมาย
+Portfolio ระบบแนะนำโรงแรมและงานที่ได้รับมอบหมาย
 
 [เปิดหน้า Portfolio](./index.html)
+
+## Hotel Recommendation System
+เว็บแอป Streamlit สำหรับแนะนำโรงแรมด้วย Neo4j โดยใช้ความชอบของผู้ใช้และความสัมพันธ์กับเพื่อน
+
+[ดูซอร์สโค้ดบน GitHub](https://github.com/664245013/013..RE)
+
+URL สำหรับเปิดแอป Streamlit โดยตรงจะเพิ่มเมื่อได้รับลิงก์ที่ใช้งานจริง
 
 ## งาน Colab
 
@@ -9,5 +16,3 @@ Portfolio ระบบโรงแรมและงานที่ได้ร�
 - [งาน Colab 2](https://colab.research.google.com/drive/1mCthb9xYtimhEANP4ljIepC2G9y9mp1s?usp=sharing)
 - [งาน Colab 3](https://colab.research.google.com/drive/15fG0GvEQjsSEHiHANEEJb5eukuQvwoPg#scrollTo=4beb8b13)
 - [แบบฝึกหัด PDF](./แบบฝึกหัด.pdf)
-
-รายละเอียดระบบโรงแรมจะเติมตามไฟล์งานจริงที่ส่งมา
